@@ -3538,3 +3538,22 @@
 #27 /var/www/html/ga-portal/public/index.php(20): Illuminate\\Foundation\\Application->handleRequest()
 #28 {main}
 "} 
+[2026-02-23 13:38:53] local.INFO: === PHOTO ACCESS ===  
+[2026-02-23 13:38:53] local.INFO: Requested file: foto_1770607913_698955291db9a.png  
+[2026-02-23 13:38:53] local.INFO: User: Sudetlin  
+[2026-02-23 13:38:53] local.INFO: Checking path: idcard/foto/foto_1770607913_698955291db9a.png  
+[2026-02-23 13:38:53] local.INFO: Checking path: idcard/bukti_bayar/foto_1770607913_698955291db9a.png  
+[2026-02-23 13:38:53] local.ERROR: ❌ File not found: foto_1770607913_698955291db9a.png  
+[2026-02-23 13:41:03] local.INFO: Preview lampiran {"lampiran_id":88} 
+[2026-02-23 13:41:08] local.INFO: Preview lampiran {"lampiran_id":88} 
+[2026-02-23 14:10:30] local.INFO: Penempatan data received: [{"unit_id":"14","penghuni_ids":["101"]}] 
+[2026-02-23 15:13:25] local.INFO: Preview lampiran {"lampiran_id":23} 
+[2026-02-23 15:14:11] local.INFO: Preview lampiran {"lampiran_id":88} 
+[2026-02-23 15:17:52] local.INFO: Preview lampiran {"lampiran_id":83} 
+[2026-02-23 15:17:52] local.INFO: Preview lampiran {"lampiran_id":55} 
+[2026-02-23 15:20:39] local.INFO: Preview lampiran {"lampiran_id":88} 
+[2026-02-23 15:20:51] local.INFO: Preview lampiran {"lampiran_id":82} 
+[2026-02-23 15:42:39] local.INFO: Preview lampiran {"lampiran_id":33} 
+[2026-02-23 16:03:40] local.INFO: Preview lampiran {"lampiran_id":88} 
+[2026-02-23 16:07:35] local.INFO: Preview lampiran {"lampiran_id":88} 
+[2026-02-23 16:07:47] local.INFO: Preview lampiran {"lampiran_id":22} 
