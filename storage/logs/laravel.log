@@ -4696,3 +4696,174 @@
 [2026-03-06 09:19:18] local.INFO: History created {"history_id":194} 
 [2026-03-06 09:19:18] local.INFO: === CHECKOUT SUCCESS ===  
 [2026-03-06 09:20:47] local.INFO: Preview lampiran {"lampiran_id":21} 
+[2026-03-06 09:45:45] local.INFO: Preview lampiran {"lampiran_id":94} 
+[2026-03-06 10:09:02] local.INFO: === APPROVE PROCESS START ===  
+[2026-03-06 10:09:02] local.INFO: Request ID: 100  
+[2026-03-06 10:09:02] local.INFO: All request data: {"_token":"3xOIpdGLaLScmj9tR7m5ofNqyEdxmD1F74UW5aow","action":"approve","tanggal_mulai":"2026-03-06","tanggal_selesai":"2026-03-30","penempatan":[{"unit_id":"14","penghuni_ids":["136","137","138"]}],"reject_reason":null} 
+[2026-03-06 10:09:02] local.INFO: Action: approve  
+[2026-03-06 10:09:02] local.INFO: Penempatan:  [{"unit_id":"14","penghuni_ids":["136","137","138"]}] 
+[2026-03-06 10:09:03] local.INFO: Penempatan data received: [{"unit_id":"14","penghuni_ids":["136","137","138"]}] 
+[2026-03-06 10:17:26] local.INFO: QR Code generated {"user_id":1,"kode_akses":"H9QRZY"} 
+[2026-03-06 10:20:40] local.INFO: Access code verified successfully {"code":"H9QRZY","ip":"172.30.62.86"} 
+[2026-03-06 10:21:21] local.INFO: Checkin process started {"id":"116","ip":"172.30.62.86","access_code":"H9QRZY"} 
+[2026-03-06 10:21:21] local.INFO: Penghuni found {"nama":"Beny Nugraha","status":"AKTIF","assign_id":103} 
+[2026-03-06 10:21:21] local.INFO: Checkin successful {"penghuni":"Beny Nugraha","checkin_at":"2026-03-06 10:21:21"} 
+[2026-03-06 10:21:21] local.INFO: Access code usage incremented  
+[2026-03-06 10:22:58] local.INFO: Access code verified successfully {"code":"H9QRZY","ip":"172.30.62.86"} 
+[2026-03-06 10:23:09] local.INFO: Checkout process started {"id":"116","ip":"172.30.62.86","access_code":"H9QRZY"} 
+[2026-03-06 10:23:09] local.INFO: Penghuni found {"nama":"Beny Nugraha","status":"AKTIF","assign_id":103,"no_hp":"+6281283274234","unit_kerja":"HO","gol":"4"} 
+[2026-03-06 10:23:09] local.INFO: Active before checkout {"count":3} 
+[2026-03-06 10:23:09] local.INFO: Penghuni status updated {"success":true} 
+[2026-03-06 10:23:09] local.INFO: Active after checkout {"count":2} 
+[2026-03-06 10:23:09] local.INFO: Mencoba insert history dengan data lengkap: {"id_karyawan":"04124090533","nama":"Beny Nugraha","no_hp":"+6281283274234","unit_kerja":"HO","gol":"4","apartemen":"Arandra Tower Victory","unit":"V2507","periode":"06/03/2026 - 30/03/2026","status_selesai":"SELESAI","created_at":"2026-03-06 10:23:09"} 
+[2026-03-06 10:23:09] local.INFO: History created {"history_id":195,"no_hp":"+6281283274234","periode":"06/03/2026 - 30/03/2026"} 
+[2026-03-06 10:23:09] local.INFO: Access code usage incremented  
+[2026-03-06 10:23:09] local.INFO: === CHECKOUT SUCCESS === {"penghuni":"Beny Nugraha","unit":"V2507","no_hp":"+6281283274234"} 
+[2026-03-06 10:23:37] local.INFO: === CHECKOUT START === {"id":"117"} 
+[2026-03-06 10:23:38] local.INFO: Penghuni ditemukan {"nama":"Ricky Chandra","assign_id":103} 
+[2026-03-06 10:23:38] local.INFO: Active penghuni before checkout {"count":2} 
+[2026-03-06 10:23:38] local.INFO: Active penghuni after checkout {"count":1} 
+[2026-03-06 10:23:38] local.INFO: Mencatat history {"nama":"Ricky Chandra","id_karyawan":"04124090533","no_hp":"+6281283274234","unit_kerja":"HO","gol":"4","apartemen":"Arandra Tower Victory","unit":"V2507","periode":"06/03/2026 - 30/03/2026","status_selesai":"SELESAI","created_at":"2026-03-06 10:23:38"} 
+[2026-03-06 10:23:38] local.INFO: History created {"history_id":196} 
+[2026-03-06 10:23:38] local.INFO: === CHECKOUT SUCCESS ===  
+[2026-03-06 10:23:42] local.INFO: === CHECKOUT START === {"id":"115"} 
+[2026-03-06 10:23:42] local.INFO: Penghuni ditemukan {"nama":"wdsa","assign_id":103} 
+[2026-03-06 10:23:42] local.INFO: Active penghuni before checkout {"count":1} 
+[2026-03-06 10:23:42] local.INFO: Active penghuni after checkout {"count":0} 
+[2026-03-06 10:23:42] local.INFO: Last penghuni, updating assign and unit  
+[2026-03-06 10:23:42] local.INFO: Unit updated to READY {"unit":"V2507"} 
+[2026-03-06 10:23:42] local.INFO: Mencatat history {"nama":"wdsa","id_karyawan":"04124090533","no_hp":"+628561186514","unit_kerja":"Bayah","gol":"4","apartemen":"Arandra Tower Victory","unit":"V2507","periode":"06/03/2026 - 30/03/2026","status_selesai":"SELESAI","created_at":"2026-03-06 10:23:42"} 
+[2026-03-06 10:23:42] local.INFO: History created {"history_id":197} 
+[2026-03-06 10:23:42] local.INFO: === CHECKOUT SUCCESS ===  
+[2026-03-06 10:38:56] local.INFO: === APPROVE PROCESS START ===  
+[2026-03-06 10:38:56] local.INFO: Request ID: 101  
+[2026-03-06 10:38:56] local.INFO: All request data: {"_token":"3xOIpdGLaLScmj9tR7m5ofNqyEdxmD1F74UW5aow","action":"approve","tanggal_mulai":"2026-03-06","tanggal_selesai":"2026-03-10","penempatan":[{"unit_id":"12","penghuni_ids":["139","140"]}],"reject_reason":null} 
+[2026-03-06 10:38:56] local.INFO: Action: approve  
+[2026-03-06 10:38:56] local.INFO: Penempatan:  [{"unit_id":"12","penghuni_ids":["139","140"]}] 
+[2026-03-06 10:38:56] local.INFO: Penempatan data received: [{"unit_id":"12","penghuni_ids":["139","140"]}] 
+[2026-03-06 10:39:06] local.INFO: === CHECKIN START === ID: 118  
+[2026-03-06 10:39:06] local.INFO: Penghuni ditemukan: Afif Julhendrik  
+[2026-03-06 10:39:06] local.INFO: === CHECKIN SUCCESS ===  
+[2026-03-06 10:39:22] local.INFO: === CHECKOUT START === {"id":"118"} 
+[2026-03-06 10:39:22] local.INFO: Penghuni ditemukan {"nama":"Afif Julhendrik","assign_id":104} 
+[2026-03-06 10:39:22] local.INFO: Active penghuni before checkout {"count":2} 
+[2026-03-06 10:39:22] local.INFO: Active penghuni after checkout {"count":1} 
+[2026-03-06 10:39:22] local.INFO: Mencatat history {"nama":"Afif Julhendrik","id_karyawan":"04124090533","no_hp":"+628561186514","unit_kerja":"HO","gol":"4","apartemen":"Arandra Tower Victory","unit":"V2502","periode":"06/03/2026 - 10/03/2026","status_selesai":"SELESAI","created_at":"2026-03-06 10:39:22"} 
+[2026-03-06 10:39:22] local.INFO: History created {"history_id":199} 
+[2026-03-06 10:39:22] local.INFO: === CHECKOUT SUCCESS ===  
+[2026-03-06 10:39:35] local.INFO: === CHECKOUT START === {"id":"119"} 
+[2026-03-06 10:39:36] local.INFO: Penghuni ditemukan {"nama":"sdddddddddddddddd","assign_id":104} 
+[2026-03-06 10:39:36] local.INFO: Active penghuni before checkout {"count":1} 
+[2026-03-06 10:39:36] local.INFO: Active penghuni after checkout {"count":0} 
+[2026-03-06 10:39:36] local.INFO: Last penghuni, updating assign and unit  
+[2026-03-06 10:39:36] local.INFO: Unit updated to READY {"unit":"V2502"} 
+[2026-03-06 10:39:36] local.INFO: Mencatat history {"nama":"sdddddddddddddddd","id_karyawan":"04124090533","no_hp":"+6281283274234","unit_kerja":"HO","gol":"4","apartemen":"Arandra Tower Victory","unit":"V2502","periode":"06/03/2026 - 10/03/2026","status_selesai":"SELESAI","created_at":"2026-03-06 10:39:36"} 
+[2026-03-06 10:39:36] local.INFO: History created {"history_id":200} 
+[2026-03-06 10:39:36] local.INFO: === CHECKOUT SUCCESS ===  
+[2026-03-06 10:59:31] local.INFO: === PHOTO ACCESS ===  
+[2026-03-06 10:59:31] local.INFO: Requested file: foto_1772680424_69a8f4e84189c.png  
+[2026-03-06 10:59:31] local.INFO: User: kpn12  
+[2026-03-06 10:59:31] local.INFO: Checking path: idcard/foto/foto_1772680424_69a8f4e84189c.png  
+[2026-03-06 10:59:31] local.INFO: Checking path: idcard/bukti_bayar/foto_1772680424_69a8f4e84189c.png  
+[2026-03-06 10:59:31] local.ERROR: ❌ File not found: foto_1772680424_69a8f4e84189c.png  
+[2026-03-06 11:22:47] local.INFO: Access code verified successfully {"code":"TRAVEP","ip":"172.30.62.86"} 
+[2026-03-06 11:22:59] local.INFO: Checkin process started {"id":"120","ip":"172.30.62.86","access_code":"TRAVEP"} 
+[2026-03-06 11:23:00] local.INFO: Penghuni found {"nama":"Sudetlin","status":"AKTIF","assign_id":105} 
+[2026-03-06 11:23:00] local.INFO: Checkin successful {"penghuni":"Sudetlin","checkin_at":"2026-03-06 11:23:00"} 
+[2026-03-06 11:23:00] local.INFO: Access code usage incremented  
+[2026-03-06 11:25:39] local.INFO: === APPROVE PROCESS START ===  
+[2026-03-06 11:25:39] local.INFO: Request ID: 103  
+[2026-03-06 11:25:39] local.INFO: All request data: {"_token":"3xOIpdGLaLScmj9tR7m5ofNqyEdxmD1F74UW5aow","action":"approve","tanggal_mulai":"2026-03-06","tanggal_selesai":"2026-03-10","penempatan":[{"unit_id":"12","penghuni_ids":["142"]}],"reject_reason":null} 
+[2026-03-06 11:25:39] local.INFO: Action: approve  
+[2026-03-06 11:25:39] local.INFO: Penempatan:  [{"unit_id":"12","penghuni_ids":["142"]}] 
+[2026-03-06 11:25:39] local.INFO: Penempatan data received: [{"unit_id":"12","penghuni_ids":["142"]}] 
+[2026-03-06 11:26:13] local.INFO: Access code verified successfully {"code":"H9QRZY","ip":"172.30.62.86"} 
+[2026-03-06 11:26:22] local.INFO: Checkin process started {"id":"121","ip":"172.30.62.86","access_code":"H9QRZY"} 
+[2026-03-06 11:26:22] local.INFO: Penghuni found {"nama":"Sudetlin","status":"AKTIF","assign_id":106} 
+[2026-03-06 11:26:22] local.INFO: Checkin successful {"penghuni":"Sudetlin","checkin_at":"2026-03-06 11:26:22"} 
+[2026-03-06 11:26:22] local.INFO: Access code usage incremented  
+[2026-03-06 11:27:45] local.INFO: Access code verified successfully {"code":"H9QRZY","ip":"172.30.62.86"} 
+[2026-03-06 11:27:55] local.INFO: Checkout process started {"id":"121","ip":"172.30.62.86","access_code":"H9QRZY"} 
+[2026-03-06 11:27:55] local.INFO: Penghuni found {"nama":"Sudetlin","status":"AKTIF","assign_id":106,"no_hp":"+6281283823477","unit_kerja":"Jakarta","gol":"4"} 
+[2026-03-06 11:27:56] local.INFO: Active before checkout {"count":1} 
+[2026-03-06 11:27:56] local.INFO: Penghuni status updated {"success":true} 
+[2026-03-06 11:27:56] local.INFO: Active after checkout {"count":0} 
+[2026-03-06 11:27:56] local.INFO: Last penghuni, updating assign and unit to READY  
+[2026-03-06 11:27:56] local.INFO: Assign updated {"success":true} 
+[2026-03-06 11:27:56] local.INFO: Unit updated to READY {"unit":"V2502","success":true} 
+[2026-03-06 11:27:56] local.INFO: Mencoba insert history dengan data lengkap: {"id_karyawan":"01234567890","nama":"Sudetlin","no_hp":"+6281283823477","unit_kerja":"Jakarta","gol":"4","apartemen":"Arandra Tower Victory","unit":"V2502","periode":"06/03/2026 - 10/03/2026","status_selesai":"SELESAI","created_at":"2026-03-06 11:27:56"} 
+[2026-03-06 11:27:56] local.INFO: History created {"history_id":201,"no_hp":"+6281283823477","periode":"06/03/2026 - 10/03/2026"} 
+[2026-03-06 11:27:56] local.INFO: Access code usage incremented  
+[2026-03-06 11:27:56] local.INFO: === CHECKOUT SUCCESS === {"penghuni":"Sudetlin","unit":"V2502","no_hp":"+6281283823477"} 
+[2026-03-06 13:31:08] local.INFO: === APPROVE PROCESS START ===  
+[2026-03-06 13:31:08] local.INFO: Request ID: 104  
+[2026-03-06 13:31:08] local.INFO: All request data: {"_token":"3xOIpdGLaLScmj9tR7m5ofNqyEdxmD1F74UW5aow","action":"approve","penempatan":[{"tanggal_mulai":"2026-03-06","tanggal_selesai":"2026-03-07","unit_id":"12","penghuni_ids":["143"]},{"tanggal_mulai":"2026-03-07","tanggal_selesai":"2026-03-08","unit_id":"12","penghuni_ids":["144"]}],"reject_reason":null} 
+[2026-03-06 13:31:08] local.INFO: Action: approve  
+[2026-03-06 13:31:08] local.INFO: Penempatan:  [{"tanggal_mulai":"2026-03-06","tanggal_selesai":"2026-03-07","unit_id":"12","penghuni_ids":["143"]},{"tanggal_mulai":"2026-03-07","tanggal_selesai":"2026-03-08","unit_id":"12","penghuni_ids":["144"]}] 
+[2026-03-06 13:31:08] local.ERROR: Error in approveProcess: The tanggal mulai field is required. (and 1 more error)  
+[2026-03-06 13:31:08] local.ERROR: Stack trace: #0 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Validation/Validator.php(558): throw_if()
+#1 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Foundation/Providers/FoundationServiceProvider.php(156): Illuminate\Validation\Validator->validate()
+#2 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Macroable/Traits/Macroable.php(126): Illuminate\Http\Request->Illuminate\Foundation\Providers\{closure}()
+#3 /var/www/html/ga-portal/app/Http/Controllers/Apartemen/AdminController.php(146): Illuminate\Http\Request->__call()
+#4 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\Apartemen\AdminController->approveProcess()
+#5 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(43): Illuminate\Routing\Controller->callAction()
+#6 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Routing/Route.php(265): Illuminate\Routing\ControllerDispatcher->dispatch()
+#7 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Routing/Route.php(211): Illuminate\Routing\Route->runController()
+#8 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate\Routing\Route->run()
+#9 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#10 /var/www/html/ga-portal/app/Http/Middleware/CheckApartemenAccess.php(36): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#11 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): App\Http\Middleware\CheckApartemenAccess->handle()
+#12 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#13 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\Routing\Middleware\SubstituteBindings->handle()
+#14 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(63): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#15 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\Auth\Middleware\Authenticate->handle()
+#16 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#17 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle()
+#18 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#19 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\View\Middleware\ShareErrorsFromSession->handle()
+#20 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#21 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate\Session\Middleware\StartSession->handleStatefulRequest()
+#22 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\Session\Middleware\StartSession->handle()
+#23 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#24 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle()
+#25 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#26 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\Cookie\Middleware\EncryptCookies->handle()
+#27 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#28 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate\Pipeline\Pipeline->then()
+#29 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\Routing\Router->runRouteWithinStack()
+#30 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate\Routing\Router->runRoute()
+#31 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate\Routing\Router->dispatchToRoute()
+#32 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\Routing\Router->dispatch()
+#33 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}()
+#34 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#35 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle()
+#36 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull->handle()
+#37 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#38 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle()
+#39 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\Foundation\Http\Middleware\TrimStrings->handle()
+#40 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#41 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\Http\Middleware\ValidatePostSize->handle()
+#42 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#43 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance->handle()
+#44 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(48): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#45 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\Http\Middleware\HandleCors->handle()
+#46 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#47 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\Http\Middleware\TrustProxies->handle()
+#48 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#49 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\Foundation\Http\Middleware\InvokeDeferredCallbacks->handle()
+#50 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#51 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate\Http\Middleware\ValidatePathEncoding->handle()
+#52 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}()
+#53 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\Pipeline\Pipeline->then()
+#54 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#55 /var/www/html/ga-portal/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate\Foundation\Http\Kernel->handle()
+#56 /var/www/html/ga-portal/public/index.php(20): Illuminate\Foundation\Application->handleRequest()
+#57 {main}  
+[2026-03-06 13:54:56] local.INFO: Preview lampiran {"lampiran_id":94} 
+[2026-03-06 13:58:07] local.INFO: === APPROVE PROCESS START ===  
+[2026-03-06 13:58:07] local.INFO: Request ID: 104  
+[2026-03-06 13:58:07] local.INFO: All request data: {"_token":"Ij1JZP1UVeOoOmlrjLbQ7Kcwdi2TV0spYd5gbqvx","action":"approve","penempatan":[{"tanggal_mulai":"2026-03-06","tanggal_selesai":"2026-03-07","unit_id":"12","penghuni_ids":["143"]},{"tanggal_mulai":"2026-03-08","tanggal_selesai":"2026-03-09","unit_id":"14","penghuni_ids":["144"]}],"reject_reason":null} 
+[2026-03-06 13:58:07] local.INFO: Action: approve  
+[2026-03-06 13:58:07] local.INFO: Penempatan:  [{"tanggal_mulai":"2026-03-06","tanggal_selesai":"2026-03-07","unit_id":"12","penghuni_ids":["143"]},{"tanggal_mulai":"2026-03-08","tanggal_selesai":"2026-03-09","unit_id":"14","penghuni_ids":["144"]}] 
+[2026-03-06 13:58:07] local.INFO: Penempatan data received: [{"tanggal_mulai":"2026-03-06","tanggal_selesai":"2026-03-07","unit_id":"12","penghuni_ids":["143"]},{"tanggal_mulai":"2026-03-08","tanggal_selesai":"2026-03-09","unit_id":"14","penghuni_ids":["144"]}] 
+[2026-03-06 14:01:16] local.INFO: Access code verified successfully {"code":"H9QRZY","ip":"172.30.62.86"} 
