@@ -4867,3 +4867,17 @@
 [2026-03-06 13:58:07] local.INFO: Penempatan:  [{"tanggal_mulai":"2026-03-06","tanggal_selesai":"2026-03-07","unit_id":"12","penghuni_ids":["143"]},{"tanggal_mulai":"2026-03-08","tanggal_selesai":"2026-03-09","unit_id":"14","penghuni_ids":["144"]}] 
 [2026-03-06 13:58:07] local.INFO: Penempatan data received: [{"tanggal_mulai":"2026-03-06","tanggal_selesai":"2026-03-07","unit_id":"12","penghuni_ids":["143"]},{"tanggal_mulai":"2026-03-08","tanggal_selesai":"2026-03-09","unit_id":"14","penghuni_ids":["144"]}] 
 [2026-03-06 14:01:16] local.INFO: Access code verified successfully {"code":"H9QRZY","ip":"172.30.62.86"} 
+[2026-03-06 14:06:58] local.INFO: === APPROVE PROCESS START ===  
+[2026-03-06 14:06:58] local.INFO: Request ID: 105  
+[2026-03-06 14:06:58] local.INFO: All request data: {"_token":"3xOIpdGLaLScmj9tR7m5ofNqyEdxmD1F74UW5aow","action":"approve","penempatan":[{"tanggal_mulai":"2026-03-06","tanggal_selesai":"2026-03-08","unit_id":"36","penghuni_ids":["145"]}],"reject_reason":null} 
+[2026-03-06 14:06:58] local.INFO: Action: approve  
+[2026-03-06 14:06:58] local.INFO: Penempatan:  [{"tanggal_mulai":"2026-03-06","tanggal_selesai":"2026-03-08","unit_id":"36","penghuni_ids":["145"]}] 
+[2026-03-06 14:06:58] local.INFO: Penempatan data received: [{"tanggal_mulai":"2026-03-06","tanggal_selesai":"2026-03-08","unit_id":"36","penghuni_ids":["145"]}] 
+[2026-03-06 14:08:10] local.INFO: === CHECKIN START === ID: 122  
+[2026-03-06 14:08:10] local.INFO: Penghuni ditemukan: Afif Julhendrik  
+[2026-03-06 14:08:10] local.INFO: === CHECKIN SUCCESS ===  
+[2026-03-06 14:08:25] local.INFO: Checkin process started {"id":"124","ip":"172.30.62.86","access_code":"H9QRZY"} 
+[2026-03-06 14:08:25] local.INFO: Penghuni found {"nama":"SUdetlin","status":"AKTIF","assign_id":109} 
+[2026-03-06 14:08:25] local.INFO: Checkin successful {"penghuni":"SUdetlin","checkin_at":"2026-03-06 14:08:25"} 
+[2026-03-06 14:08:25] local.INFO: Public check-in history created {"history_id":203} 
+[2026-03-06 14:08:25] local.INFO: Access code usage incremented  
